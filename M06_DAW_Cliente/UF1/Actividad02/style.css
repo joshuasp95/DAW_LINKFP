@@ -1,0 +1,62 @@
+body {
+    background-color: blanchedalmond;
+}
+
+header {
+    width: 90%;
+
+    margin: 1.5rem 0 0 1.5rem;
+
+    padding: 1.3rem;
+
+    background-color: aliceblue;
+    border: 4px solid darkolivegreen;
+
+    text-align: center;
+}
+
+header h2 {
+    font-size: 1.5rem;
+    letter-spacing: .7rem;
+}
+
+main {
+    width: 75%;
+    margin: auto;
+
+    margin-top: 1.5rem;
+
+    background-color: aliceblue;
+    border: 4px solid darkolivegreen;
+
+    padding: 1.3rem;
+    padding-bottom: 15rem;
+}
+
+#listaPropiedades {
+    font-size: 1.2rem;
+}
+
+.apartado2 div {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.apartado2 button {
+    padding: 1.1rem;
+    font-size: 1.2rem;
+    margin: .5rem;
+}
+
+.apartado2 {
+    float: left;
+}
+
+.apartado3 {
+    float: right;
+
+    width: 50%;
+
+    display: flex;
+    justify-content: space-around;
+}

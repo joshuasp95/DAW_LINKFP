@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TODO supply a title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CODIGO ERROR , falta el defer para obligar que se ejecuta despues de cargar la web-->
+    <script defer src="primerCodigoJS.js"></script>
+
+
+</head>
+
+<body>
+    <h1 id="titulo">DEPURAR EL CODIGO JAVASCRIPT </h1>
+    <section>
+        <h2> CÓDIGO MAL ESCRITO</h2>
+        <p>El tag script permite añadir código JS. Con la consola del inspector de código del
+            Navegador depuramos los errores. <br />
+            El error: "documen.wri is not a function" indica que "documen.wri" no es un nombre de función
+            reconocible por JS. Seguramente esté mal escrito.
+        </p>
+        <script>
+
+            document.write("<b>document.write</b> nos permite escribir texto o tags HTML");
+            document.write("pero solo lo podemos ejecutar al cargar la web. ");
+            document.write("Si lo utilizamos una vez cargada la web, se borrará todo el contenido HTML. No es recomendable su uso");
+            //CODIGO ERROR
+            document.write("<br />ERR00: escribimos mal alguna senténcia, veremos el error en consola al ejecutarlo,");
+
+        </script>
+    </section>
+    <section>
+        <h2>ORDEN DEL JS</h2>
+        <p>
+            Si el código JS accede a un elemento HTML, es importate que al ejecutar el JS ya se haya cargado el HTML.
+            El atributo defer en el tag script asegura que se ejecute el JS después de cargar el HTML
+        </p>
+        <p id="ordenCorrecto"></p>
+    </section>
+    <section>
+        <h2>CASE SENSITIVE</h2>
+        <!-- al clicar sobre un DIV llamamos a la función "saluda()" -->
+        <p>JS tiene en cuenta mayusculas y minusculas. Si no encuentra una función, tenemos que
+            asegurarnos que esté bien escrita. <br />
+            <br />(El id ha de ser el correcto. Cuidado las mayusculas!)
+        </p>
+
+        <!-- CODIGO ERROR -->
+        <button onClick="saluda('Cuidado las mayúsculas');">CLICA AQUI PARA MOSTRAR UN SALUDO</button>
+
+        <div id="mensaje"></div>
+    </section>
+
+    <section>
+        <h2>PEDIR DATOS</h2>
+        <p>
+            Podemos pedir datos con "window.prompt()" (No confundir con windowS !) pero es muy feo<br />
+            <span onclick="pideDatoPrompt()">CLICA AQUI PARA PREGUNTAR POR PROMPT</span>
+        <div id="mensajePrompt"></div>
+        </p>
+        <p>
+            Es mas bonito obtener la información de un input con su atributo value:
+            <input id="entradaInfo" />
+            <span onclick="pideDatoInput()">CLICA AQUI PARA LEER LA INFORMACION DEL INPUT</span>
+        <div id="mensajeInput"></div>
+        </p>
+        <b>
+            Todos los datos que entre el usuario son tratados como texto.
+            Podemos pasar un valor a numero con parseFloat o parseInt
+            <input type="number" id="entradaSuma10">
+            <button onclick="suma10()">CLICA AQUÍ PARA SUMAR 10 AL VALOR DEL INPUT</button>
+            <div id="mensajeSuma10"></div>
+        </b>
+    </section>
+
+
+
+    <section>
+        <h2>PROGRAMA EN JS!</h2>
+        <p>
+            Programa que se muestra en "mensajeOperacion" el resultado de operar con el 1r i el 2o numero.<br />
+            Si el contenido de "operacion" es "+", suma ambos números, si es "*" multiplicalos. <br />
+            Si el contenido de "operacion" no se corresponde con "+" ni con "*" muestra un mensaje indicando que no es
+            una operacion valida. <br />
+        </p>
+        1r numero: <input id="primerNumero" type="number"> <br />
+        2o numero: <input type="number" id="segundoNumero"> <br />
+        operacion: <input type="text" id="operacion">
+        <button onclick="calculaOperacion();">CLICA AQUÍ PARA SUMAR O MULTIPLICAR LOS DOS NUMEROS</button>
+        <div id="mensajeOperacion"></div>
+    </section>
+
+
+
+</body>
+
+</html>

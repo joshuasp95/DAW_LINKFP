@@ -1,0 +1,55 @@
+body {
+    background-color: blanchedalmond;
+}
+
+header {
+    width: 90%;
+
+    margin: 1.5rem 0 0 1.5rem;
+
+    padding: 1.3rem;
+
+    background-color: aliceblue;
+    border: 4px solid darkolivegreen;
+
+    text-align: center;
+}
+
+header h2 {
+    font-size: 1.5rem;
+    letter-spacing: .7rem;
+}
+
+main {
+    width: 75%;
+    margin: auto;
+
+    margin-top: 1.5rem;
+
+    background-color: aliceblue;
+    border: 4px solid darkolivegreen;
+
+    padding: 1.3rem;
+    padding-bottom: 15rem;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 40%;
+
+    margin-top: 10%;
+
+    padding: 1.5rem;
+
+    font-size: 1.7rem;
+}
+
+button:hover {
+    background-color: chocolate;
+    font-size: 1.9rem;
+
+}
