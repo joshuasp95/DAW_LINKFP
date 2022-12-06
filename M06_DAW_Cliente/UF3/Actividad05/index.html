@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACT 5 - M06 Joshua Sainz</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        crossorigin="anonymous" />
+
+    <script defer src="main.js"></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <form id="formulario" action="inicio.html">
+
+            <div class="titulo">Rellena los siguientes datos</div>
+
+            <!-- NOMBRE USUARIO -->
+            <div class="nombre">
+                <label for="nom_user">Nombre</label>
+
+                <i class="fas fa-user"></i>
+
+                <input type="text" name="nom_user" id="nom_user" placeholder="Escribe tu nombre">
+
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+
+                <i class="far fa-check-circle success-icon"></i>
+
+                <div class="error"></div>
+            </div>
+
+            <!-- CORREO USUARIO -->
+            <div class="correo">
+
+                <label for="ema_user">E-mail</label>
+
+                <i class="far fa-envelope"></i>
+
+                <input type="email" name="ema_user" id="ema_user" placeholder="mkzuck@meta.com">
+
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+
+                <i class="far fa-check-circle success-icon"></i>
+
+                <div class="error"></div>
+            </div>
+
+            <!-- TELEFONO -->
+            <div class="telefono">
+                <label for="tel_user">Telefono</label>
+
+                <i class="fa fa-phone"></i>
+
+                <input type="tel" name="tel_user" id="tel_user" placeholder="944 34 45 54">
+
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+
+                <i class="far fa-check-circle success-icon"></i>
+
+                <div class="error"></div>
+
+
+            </div>
+
+            <!-- CONTRASEÑA -->
+            <div class="passwd">
+                <label for="pass_user">Contraseña</label>
+
+                <i class="fa fa-lock"></i>
+
+                <input type="password" name="pass_user" id="pass_user" placeholder="Admin1234">
+
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+
+                <i class="far fa-check-circle success-icon"></i>
+
+                <div class="error"></div>
+
+
+            </div>
+
+            <!-- REPETIR CONTRASEÑA -->
+            <div class="passwd_rep">
+                <label for="pass_user_rep">Repetir Contraseña</label>
+
+                <i class="fa fa-lock"></i>
+
+                <input type="password" name="pass_user_rep" id="pass_user_rep" placeholder="Repite tu contraseña">
+
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+
+                <i class="far fa-check-circle success-icon"></i>
+
+                <div class="error"></div>
+
+            </div>
+
+            <!-- FECHA ACTUAL -->
+            <div class="date">
+                <label for="date_user">Introduce tu fecha de nacimiento</label>
+
+                <input type="date" name="date_user" id="date_user">
+
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+
+                <i class="far fa-check-circle success-icon"></i>
+
+                <div class="error"></div>
+
+
+            </div>
+
+            <!-- ELEGIR S.O -->
+            <div class="sistema">
+                <!-- AÑADIR NUEVO S.O -->
+                <p>Elige tu Sistema Operativo</p>
+                <div id="sis_op">Añadir un nuevo Sistema Operativo</div>
+                <div id="intro_siso"></div>
+                <div id="checkbox1" class="checkbox1">
+                    <input type="checkbox" name="siso" id="siso1" value="0">
+                    <label for="siso1">Windows</label>
+                    <input type="checkbox" name="siso" id="siso2" value="1">
+                    <label for="siso2">Linux</label>
+                </div>
+
+            </div>
+
+            <!-- ELEGIR GENERO MUSICA -->
+            <div class="genero">
+                <!-- AÑADIR NUEVO GENERO -->
+                <p>Elige tu género de música preferido</p>
+                <div id="gen_mus">Añadir un nuevo Género Musical</div>
+                <div id="intro_gen"></div>
+                <div id="checkbox2" class="checkbox2">
+                    <input type="checkbox" name="music" id="music1" value="0">
+                    <label for="music1">ROCK</label>
+                    <input type="checkbox" name="music" id="music2" value="1">
+                    <label for="music2">RAP</label>
+                    <input type="checkbox" name="music" id="music3" value="2">
+                    <label for="music3">TECHNO</label>
+                </div>
+
+            </div>
+
+            <!-- INTRODUCIR COMENTARIO DE ERROR DE LOS CHECKBOX -->
+            <textarea name="area" id="area" cols="30" rows="10">
+
+            </textarea>
+
+            <button type="submit" id="btn">Enviar</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
