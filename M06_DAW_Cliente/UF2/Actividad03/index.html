@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="actividad03.js" defer></script>
+    <title>Activiad 03 - Joshua Sainz</title>
+</head>
+
+<body>
+    <div id="extras">
+        <h2>EXTRAS DISPONIBLES</h2>
+    </div>
+
+    <div id="coches">
+        <h2>COCHES DISPONIBLES</h2>
+        <p id="cochesElemento"></p>
+    </div>
+
+    <div id="gestExtras">
+        <h2>GESTIONA EXTRAS</h2>
+        <div id="adition">
+            <input type="text" name="precio" id="precio" placeholder="precio">
+            <select name="listaExtras" id="listaExtras">
+                <option value="0">Escoge un extra</option>
+                <option value="1">concha_azul</option>
+                <option value="2">estrella</option>
+            </select>
+            <button onclick="addExtras()">ADD EXTRAS</button>
+        </div>
+        <div id="delete">
+            <label for="posicion">Posicion a borrar</label>
+            <input type="number" name="posicion" id="posicion" placeholder="numero">
+            <button onclick="delExtras()">BORRAR</button>
+        </div>
+    </div>
+
+    <div id="creaCoche">
+        <h2>CREA UN COCHE DISPONIBLE</h2>
+        <input type="text" name="nombre" id="nombre" placeholder="nombre">
+        <input type="text" name="velocidad" id="velocidad" placeholder="velocidad (km/h)">
+        <button onclick="newCoche()">ADD COCHE</button>
+    </div>
+
+    <div id="asignarExtra">
+        <h2>ASIGNA UN EXTRA A UN COCHE</h2>
+        <select name="selectExtras" id="selectExtras">
+        </select>
+        <select name="selectCoches" id="selectCoches">
+        </select>
+        <button onclick="asignarExtras()">ADD EXTRA COCHE</button>
+    </div>
+</body>
+
+</html>

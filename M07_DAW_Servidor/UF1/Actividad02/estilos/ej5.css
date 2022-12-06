@@ -1,0 +1,30 @@
+body {
+    background-color: blanchedalmond;
+}
+
+section {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+    font-size: 1.2rem;
+
+    border: 5px solid gray;
+
+    background-color: aliceblue;
+
+    box-sizing: border-box;
+    padding: 1rem;
+
+
+}
+
+form {
+    text-align: center;
+}
+
+
+input[type="submit"] {
+    font-size: 1.2rem;
+}
+

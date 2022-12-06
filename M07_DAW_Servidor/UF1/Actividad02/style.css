@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(205, 255, 237);
+}
+
+main{
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+
+    box-sizing: border-box;
+    padding: 1.5rem;
+    padding-bottom: 10%;
+
+    background-color: aliceblue;
+    border: 5px solid darkolivegreen;
+
+}
+
+article h2{
+
+    font-size: 2rem;
+}
+article p{
+    font-size: 1.5rem;
+}
+ul{
+    list-style: none;
+}
+li{
+    margin-top: 1.2rem;
+}
+a{
+    text-decoration: none;
+    
+    color: darkgoldenrod;
+
+    font-size: 1.2rem;
+    font-weight: 800;
+}

@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgba(201, 230, 246, 0.904);
+    margin: 1em;
+
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    min-height: 10em;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+
+    background-color: aquamarine;
+    border: 2px solid black;
+}
+
+h2 {
+    align-self: center;
+    justify-self: center;
+
+    margin: 1em 0;
+    color: rgb(44, 63, 9);
+}
+
+form {
+
+    min-width: 10em;
+    align-self: center;
+    justify-self: center;
+
+    border: .5em solid darkcyan;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    width: 10em;
+    margin: .5em;
+
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 5em;
+}
+
+input[type="submit"] {
+    margin: 1em;
+    padding: .3em;
+    background-color: azure;
+    color: rgb(50, 9, 72);
+}
+
+input[type="submit"]:hover {
+    background-color: springgreen;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 40em;
+    margin: auto;
+    margin-bottom: 1em;
+    margin-top: 1em;
+
+}
+
+th,
+td {
+    border: .1em solid black;
+    text-align: start;
+
+    box-sizing: border-box;
+    padding: .4em;
+
+}
+
+.form_Proyecto,
+.form_Usuario,
+.form_Tarea {
+    min-width: 5em;
+    align-self: center;
+    justify-self: center;
+
+    border: 0px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.estado_tarea {
+    margin-right: 1em;
+}
+
+.salir {
+    width: 2.5em;
+    height: 2.5em;
+
+    border: 0px;
+
+    justify-self: flex-end;
+    align-self: flex-end;
+
+    margin: 0 0 .5em 0;
+}
+
+.salir input {
+    padding: .2em .5em;
+
+}
+.volver {
+    width: 2.5em;
+    height: 2.5em;
+
+    border: 0px;
+
+    justify-self: flex-end;
+    align-self: flex-end;
+
+    margin: 0 0 .5em 0;
+}
+
+.volver input {
+    padding: .2em .5em;
+
+}

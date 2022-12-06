@@ -1,0 +1,51 @@
+body {
+    background-color: blanchedalmond;
+}
+
+section {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+    font-size: 1.2rem;
+
+    border: 5px solid gray;
+
+    background-color: aliceblue;
+
+    box-sizing: border-box;
+    padding: 1rem;
+
+
+}
+
+form {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+
+}
+
+li {
+    margin: .5rem;
+}
+
+input[type="submit"] {
+    font-size: 1.2rem;
+}
+
+.resultNumeros {
+    width: 60%;
+    margin: auto;
+    border: 2px solid olivedrab;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+}
+
+.numeros {
+    padding: .3rem;
+}

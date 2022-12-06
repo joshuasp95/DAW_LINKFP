@@ -1,0 +1,15 @@
+Notas importantes del ejercicio:
+
+Se ha seguido un Patrón MVC
+
+Cada tarea del CRUD la realiza un archivo .php distinto
+
+Como había 2 primary keys en la tabla "tarea", un usuario de un proyecto solo puede tener una tarea, el nombre de la tarea si se puede repetir.
+
+Por eso cuando se quiere asignar una tarea en el select se han ido restando los usuarios restantes
+
+En el caso de modificar valores de tareas, usuarios o proyectos he dejado un espacio en blanco para rellenar el nuevo input que se le quiera dar
+menos en el password que si que la he revelado, también se podría haber hecho con un " value = ' echo valor' " para modificar algun punto del input
+
+No he puesto ningun sistema para impedir el acceso a los archivos del controlador, como si he puesto en las vistas para redigirir al index, debido a
+que un navegador no puede leer el codigo del servidor.

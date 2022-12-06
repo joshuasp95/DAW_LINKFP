@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/ej3.css">
+    <title>Actividad 2 - Joshua Sainz</title>
+</head>
+
+<body>
+    <section>
+        <article>
+            <h3>Ejercicio 3</h3>
+            <p>
+                Realizar una aplicación que simule una calculadora. Constará de una página HTML con dos campos de texto
+                para introducir los dos operadores, y 4 RadioButtons para seleccionar la operación: suma, resta,
+                multiplicación y división. Se mostrará el resultado de la operación en una segunda página con la frase
+                “El resultado de la suma/resta/multiplicación/división es XXX”.
+                Hacer el programa usando un formulario de tipo POST.
+            </p>
+        </article>
+
+        <form name="ejercicio3" action="calculadora.php" method="post">
+
+            <!-- Pedimos los valores al usuario con el formulario -->
+            <div class="operandos">
+                <label for="operador1">Introduce un numero</label>
+                <input type="text" name="num1">
+
+                <label for="operador2">Introduce otro numero</label>
+                <input type="text" name="num2">
+
+            </div>
+
+            <div class="operaciones">
+                <label><input type="radio" name="operaciones" value="+">Suma</label>
+                <label><input type="radio" name="operaciones" value="-">Resta</label>
+                <label><input type="radio" name="operaciones" value="*">Multiplicación</label>
+                <label><input type="radio" name="operaciones" value="/">División</label>
+            </div>
+            <div class="opciones">
+                <input type="submit" value="Calcular" name="operacion">
+                <input type="reset" value="Borrar">
+            </div>
+        </form>
+
+    </section>
+
+</body>
+
+</html>

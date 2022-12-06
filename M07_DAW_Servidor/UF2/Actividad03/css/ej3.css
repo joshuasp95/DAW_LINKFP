@@ -1,0 +1,126 @@
+#cuerpo {
+    background-color: rgba(138, 137, 140, 0.393);
+    padding:1em 5em;
+}
+
+form {
+    max-width: 95em;
+    margin: auto;
+
+    margin-top: 1em;
+
+    background-color: goldenrod;
+    border: 2px solid black;
+
+
+    box-sizing: border-box;
+    padding: 2em;
+
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#select_personajes h3 {
+    font-size: 2em;
+}
+
+#select_personajes select {
+    font-size: 1.5em;
+}
+
+#botones input {
+    padding: 1em 2em;
+    margin-left: 1em;
+    border: 2px solid black;
+    font-size: 1em;
+    font-weight: bold;
+
+}
+
+#botones input:hover{
+    background-color: rgba(71, 214, 28, 0.876);
+    transform: scale(1.2);
+}
+
+
+img {
+    width: 150px;
+    height: 150px;
+}
+img:hover{
+    transform: scale(1.1);
+}
+
+#juego{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+
+    background-color: rgba(177, 50, 177, 0.135);
+    margin: 1em;
+}
+#caracteristicas {
+    background-color: rgba(202, 202, 194, 0.558);
+    max-width: 35em;
+    margin: 5em 2em;
+
+    box-sizing: border-box;
+    padding: 2em 1em;
+}
+#caracteristicas p{
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+#funciones{
+    width: 35em;
+    height: 3em;
+    text-align: start;
+    margin-left: 50%;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: 2px solid saddlebrown;
+    
+}
+#funciones option{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#funciones:hover{
+    background-color: rgba(102, 238, 192, 0.545);
+}
+
+#acciones_resultados{
+    max-width: 35em;
+    margin: 5em 0em 5em 2em;
+
+
+    background-color: rgba(233, 233, 217, 0.713);
+
+    box-sizing: border-box;
+    padding: 2em;
+}
+
+#acciones_resultados p{
+    font-size: 1.5em;
+    font-weight: bold;
+
+    font-family: fantasy;
+}
+
+#acciones_resultados img{
+    width: 250px;
+    height: 250px;
+
+    margin-top: 5em;
+}
+
+#imagen_inicio{
+    width: 350px !important;
+    height: 250px !important;
+}

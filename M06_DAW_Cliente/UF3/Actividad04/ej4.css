@@ -1,0 +1,66 @@
+#selectOperation>div{
+	vertical-align: middle;
+    border: 1px solid #99CCFF;
+    display: inline-block;
+    margin: 5px;
+    min-height: 30px;
+    min-width: 75px;
+    padding:2px;
+    padding-top: 4px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+#selectOperation>div:hover{
+	box-shadow: -1px 0 10px #99CCFF;
+}
+
+#domNodes{
+	border:1px solid yellow;
+}
+#domNodes h3{
+	text-align: center;
+}
+#domNodes>div{
+	border:1px solid yellow;
+	margin: 5px;
+	min-height: 50px;
+	min-width: 75px;
+	display:inline-block;
+	vertical-align: top;
+}
+#domNodes> span{
+	border:1px solid red;
+	margin: 5px;
+	min-height: 30px;
+	min-width: 30px;
+	display:inline-block;
+	vertical-align: top;
+}
+
+#domNodes{
+	vertical-align: top;
+}
+.addDiv{
+	border-color: #F8AC00;
+        border-radius: 15%;
+}
+.span{
+	border-color:#008000;
+        background-color: #ADFF2F;
+}
+
+.setContentPrev{
+	border-color:#FFCC99;
+}
+.delPrevNode{
+	border-color:#A9ED86;
+}
+.delNextNode{
+	border-color:#ADFF2F;
+}
+.delAllType{
+	border-color:#9966FF;
+}
+.setContentPrev{
+    background-color: sandybrown;
+}

@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+#extras,
+#coches {
+    border: 1px solid black;
+    width: 40em;
+    min-height: 30vh;
+
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    padding: 0 0 2em 1em;
+
+    box-sizing: border-box;
+
+}
+
+#coches {
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+
+    width: 40em;
+}
+
+#extras h2,
+#coches h2 {
+    width: 40em;
+}
+
+#imagen {
+    width: 100px;
+    height: 80px;
+}
+
+#imagen {
+    margin: .5em 0 0 1em;
+}
+
+#coches span {
+    width: 15em;
+    align-self: flex-start;
+}
+
+#coches img {
+    width: 65px;
+    height: 45px;
+}
+
+#divCoche {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: flex-start;
+    align-items: center;
+    width: 30em;
+}
+
+#divCoche span {
+    width: 10em;
+    align-self: center;
+}
+
+#divCoche span img {
+    margin-top: -1em;
+}
+
+#gestExtras,
+#creaCoche,
+#asignarExtra {
+    border: 1px solid black;
+    width: 40em;
+    min-height: 10vh;
+
+    margin-top: 1em;
+    padding: 0 0 2em 1em;
+
+    box-sizing: border-box;
+}
+
+#coches #cochesElemento p {
+    margin-top: 1em;
+}

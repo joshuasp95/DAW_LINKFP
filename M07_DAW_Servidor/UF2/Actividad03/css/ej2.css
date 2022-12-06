@@ -1,0 +1,86 @@
+#cuerpo {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 80em;
+    min-height: 15em;
+
+    margin-top: 5em;
+
+    background-color: goldenrod;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+    padding: 1em;
+}
+
+form h3 {
+    font-size: 2em;
+    font-weight: bolder;
+
+    width: 100%;
+    text-align: center;
+}
+
+form input[type="text"] {
+    width: 30em;
+    min-height: 2em;
+    border: 2px solid brown;
+}
+
+form input[type="submit"] {
+    margin-left: 2em;
+    padding: .7em 2em .7em 2em;
+
+    border-radius: 25%;
+    border: 2px solid brown;
+    font-size: 1.3em;
+}
+
+form input[type="submit"]:hover {
+    background-color: greenyellow;
+}
+
+form label {
+    font-size: 1.5em;
+    margin: 0 1em;
+
+}
+
+form input[type="text"] {
+    border: 2px solid blue;
+    width: 15em;
+    margin: 0 1em;
+
+}
+
+#resultados {
+    font-size: 1.3em;
+    font-weight: bold;
+
+    padding: 1em;
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#resultados p {
+    margin-bottom: 1em;
+}
+
