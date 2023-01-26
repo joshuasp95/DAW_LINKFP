@@ -1,0 +1,11 @@
+body {
+    background-color: aliceblue;
+}
+
+span {
+    margin: 0em .5em;
+}
+
+input[type="submit"] {
+    margin: 1em 0;
+}
