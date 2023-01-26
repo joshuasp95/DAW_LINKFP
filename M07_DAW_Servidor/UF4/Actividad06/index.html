@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+    <script defer src="main.js"></script>
+    <title>Actividad 6 - Joshua Sainz</title>
+</head>
+
+<body>
+    <select id="localidad" class="select-css"></select>
+    <select id="tipoLocal" class="select-css"></select>
+    <button onclick="buscarEnMapa()">VER EN EL MAPA</button>
+    <button onclick="borrarMarcadores()">BORRAR MARCADORES</button>
+    <div id="map"></div>
+</body>
+<script defer
+    src="https://maps.googleapis.com/maps/api/js?key=INSERTATUAPIKEY&callback=initMap">
+    </script>
+
+</html>
