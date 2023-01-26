@@ -1,0 +1,8 @@
+En el php.ini:
+
+	- Descomentar extension=soap
+	- Establecer 0 en la WSDL Cache
+
+En la lib nusoap:
+
+	- Copiar el nusoap.php de Dani y pegarlo en el nusoap.php del proyecto

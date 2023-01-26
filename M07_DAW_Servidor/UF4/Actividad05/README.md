@@ -1,0 +1,1 @@
+Actividad que se basa en el uso de la libreria nusoap para crear el retorno de datos a el cliente a traves del cifrado de datos, en este caso, existe tambien una bbdd conectada al server el cual proporciona unas funciones al cliente para poder mostrar esos datos por pantalla
